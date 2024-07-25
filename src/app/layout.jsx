@@ -1,11 +1,11 @@
-import { Inter } from "next/font/google";
+import { Poppins, Open_Sans, Barlow, Bebas_Neue } from "next/font/google";
 import "./globals.css";
 import Provider from "@/components/Provider";
 import Header from "@/components/Home/Header";
 // import Footer from "@/components/Home/Footer";
 
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Bebas_Neue({ weight:'400' , subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="bg-gray-900 text-white">
+    <html lang="en" className="bg-gray-900 text-white tracking-[0.15em]">
       <body className={inter.className}>
         <Provider>
           <Header />

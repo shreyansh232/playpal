@@ -10,10 +10,10 @@ function Header() {
   
 
   return (
-    <div className='flex justify-between p-3 border-b-2'>
+    <div className='flex justify-between p-5 border-b-2 border-gray-500'>
       <div className='font-semibold flex items-center gap-2'>
-        <Image src="/images/playpal.png" alt="play pal logo" width={50} height={50} />
-        <h1 className='text-4xl'>PlayPal</h1>
+        <Image src="/images/playpal.png" alt="playpal logo" width={45} height={45} />
+        <h1 className='text-5xl'>PlayPal</h1>
       </div>
       <div className='flex gap-3 items-center'>
         <button className='bg-black text-white p-2 px-3 rounded-xl border border-gray-500'>
